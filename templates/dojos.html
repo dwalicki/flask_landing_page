@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dojos</title>
+    <!-- localhost:5000/dojos/new    
+    This route should serve a view
+     file called dojos.html and have a form. Don't worry where the form should be sent to for now, 
+     you can simply set your action blank, like this:action=''. -->
+</head>
+<body>
+    <h3>Feel free to sign up for letters from the Dojo</h3>
+    <form action="">
+        <input type="text" name='name'>
+        <input type="text" name='email'>
+    </form>
+</body>
+</html>
+
+<form action='/users' method='post'>
+    Name: <input type='text' name='name'>
+    Email: <input type='text' name='email'>
+    <input type='submit' value='create user'>
+</form>
